@@ -1,0 +1,232 @@
+meta
+{
+  display: none;
+}
+
+header
+{
+  background-color:#474747;
+  padding-bottom:0%
+}
+
+
+.logo
+{
+  max-width:8%;
+}
+
+
+li
+{
+  font-family:'Roboto',sans-serif;
+  display: inline;
+  background-color: #474747;
+  padding-right: 0.6%;
+  font-size: larger;
+  margin-left: 6%;
+  margin-right: 2.9%;
+  font-size:110%
+
+}
+
+li:hover
+{
+  background-color:#393939
+}
+
+ a
+{
+  text-decoration: none;
+  color:white;
+
+}
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+#menu-deroulant li {
+    display: inline-block;
+
+
+}
+
+#menu-deroulant ul #deroulant {
+
+    display: inherit;
+    margin-left:0%;
+    margin-right:-30%
+
+}
+#menu-deroulant .deroul{
+  text-decoration: none;
+  display: block;
+  color:white;
+  font-size:90%;
+  text-align: center;
+  padding-bottom: 15%;
+
+}
+
+#menu-deroulant ul {
+    position: absolute;
+
+    left: -300%;
+    text-align: left;
+    z-index: 1000%;
+}
+#menu-deroulant li:hover ul {
+
+    left: auto;
+
+}
+
+
+
+.insta
+{
+  max-width: 5%;
+  margin-left: 11%;
+}
+
+.img_bgrnd
+{
+  padding-top:30%;
+  background-image: url(conseil.jpg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  margin-top:-2%.
+}
+
+.hp{
+  max-width: 25%;
+  float: right;
+  margin-top:-25%
+}
+
+
+body
+{
+  margin: 0%;
+  background-color:rgba(15, 124, 126, 0.77)
+}
+
+h4{
+  margin-left:3%;
+  color:white
+
+}
+
+.titre1{
+  margin-left:3%
+}
+
+.soustitre{
+  margin-right: 50%
+}
+
+.conseils{
+  margin-right: 55%;
+  padding-left:5%
+
+
+}
+
+.creme{
+  float:right;
+  max-width: 30%;
+  margin-top:-15%;
+  margin-right:10%
+}
+
+.huile{
+  max-width: 20%;
+  float:right;
+  margin-top:-9%;
+  margin-right:15%
+}
+
+.masque{
+  max-width: 20%;
+  float: right;
+  margin-top:-10%;
+  margin-right:15%
+}
+
+.one
+{
+  background-color: white;
+  margin : 2.5%;
+  border:solid white 1px;
+  border-top-right-radius: 18px;
+  border-top-left-radius:18px;
+  padding:1%;
+  font-family:'Roboto',sans-serif;
+}
+
+.two
+{
+  background-color: white;
+  margin : 2.5%;
+  border : solid white 1px ;
+  padding:1%;
+  font-family:'Roboto',sans-serif;
+
+}
+
+
+.fin
+{
+  background-color: white;
+  margin :2.5%;
+  border : solid white 1px ;
+  padding:1%;
+  padding-bottom:4%  ;
+  border-bottom-left-radius:18px;
+  border-bottom-right-radius:18px;
+  font-family:'Roboto',sans-serif;
+}
+footer
+{
+
+  background-color: #474747
+}
+
+.basdepage{
+  padding-bottom:1%
+}
+
+.instabdp
+{
+  max-width: 4%;
+  float: right;
+  margin-top: -6%
+}
+
+
+.logobdp
+{
+  max-width: 6%
+}
+
+.txtbdp{
+  text-align: center;
+  margin-top:-3%;
+  margin-bottom:0%;
+  padding-bottom:0%;
+  font-family: "Roboto",sans-serif;
+}
+
+.txtbdp1{
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+}
+
+.hypertxt{
+  margin-right: 2%;
+  margin-left: 2%;
+  color:black;
+  margin-top: -6%
+}

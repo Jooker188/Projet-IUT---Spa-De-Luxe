@@ -1,0 +1,119 @@
+meta
+{
+  display: none;
+}
+
+header
+{
+  background-color:#474747;
+  padding-bottom:2%
+}
+
+
+.logo
+{
+  max-width:8%;
+}
+
+
+li
+{
+  display: inline;
+  background-color: #474747;
+  padding-right: 0.6%;
+  font-size: larger;
+  margin-left: 6%;
+  margin-right: 2.9%;
+  font-size:110%
+
+}
+
+li:hover
+{
+  background-color:#393939
+}
+
+a
+{
+  text-decoration: none;
+  color:white;
+}
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+
+}
+#menu-deroulant ul #deroulant {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+    margin-left:0%;
+    margin-right:-32%
+
+}
+#menu-deroulant .deroul{
+    text-decoration: none;
+    display: block;
+	  color:white;
+    margin-left:0%;
+    font-size:90%
+
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -300%;
+    text-align: left;
+    z-index: 1000%;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+
+}
+
+
+.insta
+{
+  max-width: 5%;
+  margin-left: 11%;
+}
+
+body
+{
+  margin: 0%;
+  background-color:rgba(15, 124, 126, 0.77)
+}
+
+
+.img_bg
+{
+  padding-top:24%;
+  background-image: url("nom du fichier");
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top:-1%
+}
+
+footer
+{
+  padding : 0%;
+  background-color: #474747;
+}
+
+.instabdp
+{
+  max-width: 4%;
+  margin-left:89%
+}
+
+.logobdp
+{
+  max-width: 6%
+}

@@ -1,0 +1,253 @@
+meta
+{
+  display: none;
+}
+
+header
+{
+  background-color:#474747;
+  padding-bottom:0.5%
+}
+
+
+.logo
+{
+  max-width:8%;
+}
+
+
+li
+{
+  display: inline;
+  background-color: #474747;
+  padding-right: 0.6%;
+  font-size: larger;
+  margin-left: 6%;
+  margin-right: 2.9%;
+  font-size:110%;
+  font-family:'Roboto',sans-serif;
+}
+
+li:hover
+{
+  background-color:#393939
+}
+
+a
+{
+  text-decoration: none;
+  color:white;
+
+}
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+
+
+}
+
+#menu-deroulant ul #deroulant {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+    margin-left:0%;
+    margin-right:-30%;
+
+
+}
+#menu-deroulant .deroul{
+  text-decoration: none;
+  display: block;
+  color:white;
+  font-size:90%;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-top:15%;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -300%;
+    text-align: left;
+    z-index: 1000%;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+
+}
+
+
+.insta
+{
+  max-width: 5%;
+  margin-left: 11%;
+}
+
+body
+{
+  margin: 0%;
+  background-color:rgba(15, 124, 126, 0.77)
+}
+
+
+.img_bg
+{
+  padding-top:24%;
+  background-image: url(restaurant.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top:-2%
+}
+
+h2{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+
+}
+
+.reser{
+  margin:2%;
+  margin-top:-1%;
+  text-align: center;
+  font-size:large;
+  font-family: "Roboto",sans-serif;
+}
+
+.reser a{
+  text-decoration: underline;
+}
+
+.reser a:hover{
+  background-color: rgb(16, 131, 119)
+}
+.plat{
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 9%;
+  margin-right: 10%;
+  background-color: white;
+  font-size: 115%;
+}
+
+.menus{
+text-align: center;
+font-family:'Roboto',sans-serif;
+}
+
+#veloute{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+
+}
+
+#legume{
+text-align: center;
+font-family:'Roboto',sans-serif;
+}
+
+#gateau{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+
+#crabe{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+#nages{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+#ragout{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+#assiette{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+#tartare{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+#parmentier{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+#crepe{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+.tiramisu{
+  font-family:'Roboto',sans-serif;
+  text-align: center;
+}
+
+.img_plat{
+  width: 30%;
+  height: 20%;
+  padding-left: 35%
+}
+
+.prix{
+  text-align: center;
+  font-family:'Roboto',sans-serif;
+}
+
+footer
+{
+
+  background-color: #474747
+}
+
+.basdepage{
+  padding-bottom:1%
+}
+
+.instabdp
+{
+  max-width: 4%;
+  float: right;
+  margin-top: -6%
+}
+
+
+.logobdp
+{
+  max-width: 6%
+}
+
+.txtbdp{
+  text-align: center;
+  margin-top:-3%;
+  margin-bottom:0%;
+  padding-bottom:0%;
+  font-family: "Roboto",sans-serif;
+}
+
+.txtbdp1{
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+}
+
+.hypertxt{
+  margin-right: 2%;
+  margin-left: 2%;
+  color:black;
+  margin-top: -6%
+}
